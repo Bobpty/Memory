@@ -1,0 +1,101 @@
+html, body 
+{
+    background: url("../Images/Fond.png") no-repeat center fixed;
+    background-size: cover; 
+    
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    
+    font-family: MV Boli;
+    color: #8FC528;
+}
+
+.titre
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fond_titre
+{
+    background-color: black;
+}
+
+.connexion
+{
+    margin-top: 60px;
+    margin-left: 50px;
+    
+    color: #8FC528;
+}
+
+.erreur
+{
+    color: red;
+}
+
+.debut_partie
+{
+    background: url("../Images/Debut.png") no-repeat;
+    border: 0px;
+    width: 189px;
+    height: 47px;
+}
+
+.menu_jeu
+{
+    padding-right: 45px;
+    
+    width: 100%;
+    height: 100px;
+}
+
+.recommecencer
+{
+    background: url("../Images/Recommencer.png") no-repeat;
+    border: 0px;
+    width: 141px;
+    height: 47px;
+}
+
+.temps
+{
+    width: 40px;
+}
+
+.tableau_score
+{
+    width: 95%;
+    
+    background-color: #000000;
+    opacity: 0.6;
+    
+    border: 2px groove black;
+    border-collapse: collapse;
+    
+    color: #8FC528; 
+}
+.tableau_score thead tr th
+{
+    border-color: #474A4A;
+    height: 40px;
+    
+    color: #7BA927;
+}
+.tableau_score tbody tr td
+{
+    height: 30px;
+    border-color: #474A4A;
+    
+    color: #8FC528;
+    text-indent : 10px;
+}
+.tableau_score tfoot tr th
+{
+    height: auto;
+    border-color: #474A4A;
+    
+    color: #B2F63A;
+}
