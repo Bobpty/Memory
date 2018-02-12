@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="src/CSS/style.css">
+        <link rel="icon" type="image/png" href="src/Images/favicon.png" />
         <script type="text/javascript" src="src/JS/fonctions.js"></script>
     </head>
     <body onload="chargementPartie();">
